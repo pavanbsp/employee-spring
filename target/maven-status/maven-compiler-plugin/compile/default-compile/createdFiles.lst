@@ -11,5 +11,7 @@ com\increff\employee\spring\SpringConfig.class
 com\increff\employee\model\InfoData.class
 com\increff\employee\service\AboutAppService.class
 com\increff\employee\pojo\EmployeePojo.class
+com\increff\employee\spring\DbConfig.class
+com\increff\employee\dao\EmployeeInMemDao.class
 com\increff\employee\dao\EmployeeDao.class
 com\increff\employee\spring\WebInitializer.class

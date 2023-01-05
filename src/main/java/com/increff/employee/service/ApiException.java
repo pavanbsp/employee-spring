@@ -8,6 +8,4 @@ public class ApiException extends Exception {
 		super(string);
 	}
 
-
-
 }

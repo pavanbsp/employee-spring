@@ -1,16 +1,25 @@
 
+function getEmployeeUrl(){
+	var baseUrl = $("meta[name=baseUrl]").attr("content")
+	return baseUrl + "/api/employee";
+}
+
 //BUTTON ACTIONS
 function addEmployee(event){
 	//event.preventDefault();
 	var $form = $("#employee-form");
 	var json = toJson($form);
+	var url = getEmployeeUrl();
 
 	$.ajax({
-	   url: './api',
+	   url: url,
 	   type: 'POST',
 	   data: json,
+	   headers: {
+       	'Content-Type': 'application/json'
+       },
 	   success: function(response) {
-	   		console.log("Employee created");	
+	   		console.log("Employee created");
 	   		getEmployeeList();     //...
 	   },
 	   error: function(){
@@ -23,12 +32,13 @@ function addEmployee(event){
 
 
 function getEmployeeList(){
+	var url = getEmployeeUrl();
 	$.ajax({
-	   url: './api',
+	   url: url,
 	   type: 'GET',
 	   success: function(data) {
 	   		console.log("Employee data fetched");
-	   		console.log(data);	
+	   		console.log(data);
 	   		displayEmployeeList(data);     //...
 	   },
 	   error: function(){
@@ -38,8 +48,10 @@ function getEmployeeList(){
 }
 
 function deleteEmployee(id){
+	var url = getEmployeeUrl() + "/" + id;
+
 	$.ajax({
-	   url: './api?id='+id,
+	   url: url,
 	   type: 'DELETE',
 	   success: function(data) {
 	   		console.log("Employee deleted");
