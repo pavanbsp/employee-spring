@@ -4,73 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b524dd8-fa20-4700-b463-a6cfbfc59c04" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee.properties" beforeDir="false" afterPath="$PROJECT_DIR$/employee.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/controller/AboutAppController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/controller/EmployeeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/controller/UIController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/dao/EmployeeDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/dao/EmployeeInMemDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/model/AboutAppData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/model/EmployeeData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/model/EmployeeForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/model/InfoData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/pojo/EmployeePojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/service/AboutAppService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/service/ApiException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/service/EmployeeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/spring/ControllerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/spring/DbConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/spring/SpringConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/increff/employee/spring/WebInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/controller/AboutAppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/controller/AboutAppController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/controller/UIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/controller/UIController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/dao/EmployeeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/dao/EmployeeInMemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/dao/EmployeeInMemDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/model/AboutAppData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/model/AboutAppData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/model/EmployeeData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/model/EmployeeData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/model/EmployeeForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/model/EmployeeForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/model/InfoData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/model/InfoData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/pojo/EmployeePojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/pojo/EmployeePojo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/service/AboutAppService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/service/AboutAppService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/service/ApiException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/service/ApiException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/service/EmployeeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/spring/ControllerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/spring/ControllerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/spring/DbConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/spring/DbConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/spring/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/spring/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/increff/employee/spring/WebInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/increff/employee/spring/WebInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/controller/AboutAppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/controller/AboutAppController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/controller/UIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/controller/UIController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/dao/EmployeeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/dao/EmployeeInMemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/dao/EmployeeInMemDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/model/AboutAppData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/model/AboutAppData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/model/EmployeeData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/model/EmployeeData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/model/EmployeeForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/model/EmployeeForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/model/InfoData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/model/InfoData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/pojo/EmployeePojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/pojo/EmployeePojo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/service/AboutAppService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/service/AboutAppService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/service/ApiException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/service/ApiException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/service/EmployeeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/spring/ControllerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/spring/ControllerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/spring/DbConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/spring/DbConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/spring/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/spring/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/spring/WebInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/WEB-INF/classes/com/increff/employee/spring/WebInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/html/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/html/features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/html/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/html/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/html/pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/html/snippets.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/html/snippets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/static/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/employee-spring-0.0.1-SNAPSHOT/static/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="5b524dd8-fa20-4700-b463-a6cfbfc59c04" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
