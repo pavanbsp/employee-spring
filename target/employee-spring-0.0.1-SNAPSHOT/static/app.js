@@ -6,7 +6,7 @@ function getEmployeeUrl(){
 
 //BUTTON ACTIONS
 function addEmployee(event){
-	//event.preventDefault();
+	//Set the values to update
 	var $form = $("#employee-form");
 	var json = toJson($form);
 	var url = getEmployeeUrl();
@@ -17,9 +17,38 @@ function addEmployee(event){
 	   data: json,
 	   headers: {
        	'Content-Type': 'application/json'
-       },
+       },	   
 	   success: function(response) {
-	   		console.log("Employee created");
+	   		console.log("Employee created");	
+	   		getEmployeeList();     //...
+	   },
+	   error: function(){
+	   		alert("An error has occurred");
+	   }
+	});
+
+	return false;
+}
+
+function updateEmployee(event){
+	$('#edit-employee-modal').modal('toggle');
+	//Get the ID
+	var id = $("#employee-edit-form input[name=id]").val();	
+	var url = getEmployeeUrl() + "/" + id;
+
+	//Set the values to update
+	var $form = $("#employee-edit-form");
+	var json = toJson($form);
+
+	$.ajax({
+	   url: url,
+	   type: 'PUT',
+	   data: json,
+	   headers: {
+       	'Content-Type': 'application/json'
+       },	   
+	   success: function(response) {
+	   		console.log("Employee update");	
 	   		getEmployeeList();     //...
 	   },
 	   error: function(){
@@ -38,7 +67,7 @@ function getEmployeeList(){
 	   type: 'GET',
 	   success: function(data) {
 	   		console.log("Employee data fetched");
-	   		console.log(data);
+	   		console.log(data);	
 	   		displayEmployeeList(data);     //...
 	   },
 	   error: function(){
@@ -72,6 +101,7 @@ function displayEmployeeList(data){
 	for(var i in data){
 		var e = data[i];
 		var buttonHtml = '<button onclick="deleteEmployee(' + e.id + ')">delete</button>'
+		buttonHtml += ' <button onclick="displayEditEmployee(' + e.id + ')">edit</button>'
 		var row = '<tr>'
 		+ '<td>' + e.id + '</td>'
 		+ '<td>' + e.name + '</td>'
@@ -82,8 +112,31 @@ function displayEmployeeList(data){
 	}
 }
 
-//HELPER METHOD
+function displayEditEmployee(id){
+	var url = getEmployeeUrl() + "/" + id;
+	$.ajax({
+	   url: url,
+	   type: 'GET',
+	   success: function(data) {
+	   		console.log("Employee data fetched");
+	   		console.log(data);	
+	   		displayEmployee(data);     //...
+	   },
+	   error: function(){
+	   		alert("An error has occurred");
+	   }
+	});	
+}
 
+function displayEmployee(data){
+	$("#employee-edit-form input[name=name]").val(data.name);	
+	$("#employee-edit-form input[name=age]").val(data.age);	
+	$("#employee-edit-form input[name=id]").val(data.id);	
+	$('#edit-employee-modal').modal('toggle');
+}
+
+
+//HELPER METHOD
 function toJson($form){
     var serialized = $form.serializeArray();
     console.log(serialized);
@@ -101,8 +154,10 @@ function toJson($form){
 //INITIALIZATION CODE
 function init(){
 	$('#add-employee').click(addEmployee);
+	$('#update-employee').click(updateEmployee);
 	$('#refresh-data').click(getEmployeeList);
 }
+
 $(document).ready(init);
 $(document).ready(getEmployeeList);
 

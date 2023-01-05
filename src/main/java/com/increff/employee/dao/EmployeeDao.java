@@ -1,15 +1,14 @@
 package com.increff.employee.dao;
 
-import java.util.List;
+import com.increff.employee.pojo.EmployeePojo;
+import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import javax.persistence.TypedQuery;
-
-import org.springframework.stereotype.Repository;
-
-import com.increff.employee.pojo.EmployeePojo;
+import javax.transaction.Transactional;
+import java.util.List;
 
 @Repository
 public class EmployeeDao {
@@ -19,8 +18,9 @@ public class EmployeeDao {
 	private static String select_all = "select p from EmployeePojo p";
 
 	@PersistenceContext
-	EntityManager em;
+	private EntityManager em;
 
+	@Transactional
 	public void insert(EmployeePojo p) {
 		em.persist(p);
 	}

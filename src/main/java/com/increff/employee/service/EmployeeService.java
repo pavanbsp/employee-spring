@@ -1,14 +1,12 @@
 package com.increff.employee.service;
 
-import java.util.List;
-
-import javax.transaction.Transactional;
-
+import com.increff.employee.dao.EmployeeDao;
+import com.increff.employee.pojo.EmployeePojo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.increff.employee.dao.EmployeeDao;
-import com.increff.employee.pojo.EmployeePojo;
+import javax.transaction.Transactional;
+import java.util.List;
 
 @Service
 public class EmployeeService {
@@ -37,7 +35,7 @@ public class EmployeeService {
 		return dao.selectAll();
 	}
 
-	@Transactional(rollbackOn = ApiException.class)
+	@Transactional(rollbackOn  = ApiException.class)
 	public void update(int id, EmployeePojo p) throws ApiException {
 		normalize(p);
 		EmployeePojo ex = getCheck(id);
@@ -55,7 +53,7 @@ public class EmployeeService {
 		return p;
 	}
 
-	private static void normalize(EmployeePojo p) {
+	protected static void normalize(EmployeePojo p) {
 		p.setName(p.getName().toLowerCase().trim());
 	}
 }
